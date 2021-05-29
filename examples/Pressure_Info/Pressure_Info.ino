@@ -9,8 +9,8 @@ void setup() {
 
   Serial.println("\nGoertek-SPL06-007 Demo\n");
 
-  SPL_init(); // Setup initial SPL chip registers - default i2c address 0x76  
-  // SPL_init(0x77); // Uncomment for alternate I2C address 0x77
+  //SPL_init(); // Setup initial SPL chip registers - default i2c address 0x76  
+  SPL_init(0x77); // Uncomment for alternate I2C address 0x77
 }
 
 void loop() {
